@@ -1,0 +1,28 @@
+@import '../variables.css';
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-medium);
+  font-weight: 600;
+}
+
+.pagination button {
+  padding: var(--spacing-small) var(--spacing-medium);
+  background-color: var(--color-button-bg);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.pagination button:disabled {
+  background-color: var(--color-disabled);
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: var(--color-button-bg-hover);
+}

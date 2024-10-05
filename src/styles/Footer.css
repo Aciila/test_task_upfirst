@@ -1,0 +1,9 @@
+@import '../variables.css';
+
+.footer {
+  background-color: rgba(30, 30, 47, 0.8);
+  color: white;
+  padding: var(--spacing-medium);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}

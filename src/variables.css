@@ -1,0 +1,15 @@
+:root {
+  --color-background: #f0f4f8;
+  --color-card-bg: rgba(255, 255, 255, 0.15);
+  --color-border: rgba(255, 255, 255, 0.3);
+  --color-text: #1e1e2f;
+  --color-subject: #333;
+  --color-button-bg: #ff6f61;
+  --color-button-bg-hover: #e75b4e;
+  --color-disabled: #c4c4c4;
+
+  --spacing-small: 10px;
+  --spacing-medium: 15px;
+  --spacing-large: 20px;
+  --spacing-xlarge: 30px;
+}
